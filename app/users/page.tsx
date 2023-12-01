@@ -16,15 +16,20 @@ export default async function UsersPage() {
     if (users !== undefined) {
         return (
             <div className="mt-20 text-center">
-                <h1 className={title({ size: "sm" })}>Usuarios registrados al momento</h1>
+                <h1 className={title()}>Usuarios registrados al momento</h1>
                 <br />
                 <br />
 
-                {users.map(user => {
+                {users.map((user: {
+                    id: number;
+                    name:string;
+                    username:string;
+                    email:string;
+                }) => {
                     return (
                         <>
-                            <p className={subtitle()}>
-                                {user.name} {user.lastName} - {user.email}
+                            <p key= {user.id}className={subtitle()}>
+                                {user.name} {user.username} - {user.email}
                             </p>
                         </>
                     )

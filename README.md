@@ -10,13 +10,17 @@ Descripcion: El aplicativo expondra un formulario para que los clientes del banc
 
 En un futuro se puede agregar base de datos para almacenar la informacion ya que esto solo es la propuesta front, se debe añadir perfiles para que los administradores puedan ver los clientes actualizados y el publico en general la pantalla de inicio y el formulario
 
+Se adjunta mapa de capacidades
+[MAPA DE CAPACIDADES_Diego Alencastro-1.pdf](https://github.com/DiegoAlencastro/FrontendActualizaBI/files/13531524/MAPA.DE.CAPACIDADES_Diego.Alencastro-1.pdf)
+
+
 Para instalar las dependencias se usa el siguiente comando
 
 ```bash
 npm install
 ```
 
-Para iniciar el aplicativo de manera local
+Para iniciar el aplicativo de manera local como desarrolladores
 
 ```bash
 npm run dev
@@ -37,6 +41,8 @@ npm run dev
 ## Aplicacion publicada en el siguiente link
 
 https://frontend-actualiza-bi-vtij.vercel.app/
+
+
 
 
 ## Licencia del aplicativo indicada por nextui-org

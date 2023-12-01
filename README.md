@@ -1,9 +1,13 @@
 # Aplicacion para actualizacion de datos en el Banco Internacional
 
 Nombre: Diego Alencastro
+
 Solucion para empresa Banco internacional
+
 Proyecto ActualizateBI
+
 Descripcion: El aplicativo expondra un formulario para que los clientes del banco internacional puedan actualizar sus datos de una forma rapida.
+
 En un futuro se puede agregar base de datos para almacenar la informacion ya que esto solo es la propuesta front, se debe añadir perfiles para que los administradores puedan ver los clientes actualizados y el publico en general la pantalla de inicio y el formulario
 
 Para instalar las dependencias se usa el siguiente comando

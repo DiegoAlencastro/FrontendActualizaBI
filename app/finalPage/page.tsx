@@ -8,21 +8,26 @@ import NextLink from "next/link";
 export default function FinalPage({ searchParams }:{
 	searchParams:{
 	name: string;
-	lastName: string;
+	lastname: string;
 	email: string;
+	cellphone : string;
+    phone : string;
 	};
 }) {
 	console.log("En FinalPage");
 	console.log(searchParams.name);
-	console.log(searchParams.lastName);
+	console.log(searchParams.lastname);
 	controlUser("B",{
+		id: 0,
 		name: searchParams.name,
-		lastName: searchParams.lastName,
-		email: searchParams.email
+		lastname: searchParams.lastname,
+		email: searchParams.email,
+		cellphone : searchParams.cellphone,
+		phone : searchParams.phone
 	})
 	return (
 		<div>
-			<h1 className={title({ size: "sm" })}>Muchas gracias por actualizar tu información {searchParams.name} {searchParams.lastName} </h1>
+			<h1 className={title({ size: "sm" })}>Muchas gracias por actualizar tu información {searchParams.name} {searchParams.lastname} </h1>
 			<h2 className={subtitle({ class: "mt-4" })}>
 				Proximamente te contactaremos
 			</h2>

@@ -28,7 +28,7 @@ export default function FormPage() {
 					label="Apellido"
 					placeholder="Alencastro"
 					labelPlacement="outside"
-					name="lastName"
+					name="lastname"
 				/>
 			</div>
 			<div className="flex flex-wrap w-full gap-4 mb-6 md:flex-nowrap md:mb-0">

@@ -11,7 +11,7 @@ export default async function controlUser(
   }
 ) {
   if (flag === "A") {
-    const response = await fetch('http://localhost:9000/users', { cache: 'no-store' })
+    const response = await fetch('https://webservicesactualizate-domain.up.railway.app/users', { cache: 'no-store' })
 
     if(!response.ok) {
        throw new Error('failed to fetch users')
@@ -21,7 +21,7 @@ export default async function controlUser(
   if (flag === "B") {
 
     try {
-      const res = await fetch('http://localhost:9000/users',{
+      const res = await fetch('https://webservicesactualizate-domain.up.railway.app/users',{
         method: 'POST',
         body: JSON.stringify(user),
         headers: {
